@@ -1,0 +1,8 @@
+{
+  "name": "ABC Phonebook",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "f26f8722"
+}
