@@ -33,6 +33,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import Loader from './pages/Loader';
 
 setupIonicReact();
 
@@ -69,6 +70,9 @@ const App: React.FC = () => (
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
+      <Route exact path="/loader">
+            <Loader />
+          </Route>
     </IonReactRouter>
   </IonApp>
 );
